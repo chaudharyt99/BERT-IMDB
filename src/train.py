@@ -8,7 +8,7 @@ import engine
 from model import BERTBaseUncased
 from sklearn import model_selection
 from sklearn import metrics
-from transformers import AdamW
+from torch.optim import AdamW
 from transformers import get_linear_schedule_with_warmup
 
 

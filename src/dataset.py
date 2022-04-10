@@ -20,8 +20,9 @@ class BERTDataset:
             review,
             None,
             add_special_tokens=True,
-            max_len=self.max_len,
-            pad_to_max_length=True
+            truncation=True,
+            # max_len=self.max_len,
+            padding='max_length'
         )
         ids = inputs['input_ids']
         mask = inputs['attention_mask']
