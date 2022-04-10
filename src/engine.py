@@ -28,7 +28,7 @@ def train_fn(data_loader, model, optimizer, device, scheduler):
             token_type_ids=token_type_ids
         )
 
-        loss = loss_fn(outputs, targets)
+        loss = loss_fn(outputs, targets.float())
         loss.backward()
         optimizer.step()
         scheduler.step()
