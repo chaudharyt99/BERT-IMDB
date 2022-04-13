@@ -21,9 +21,7 @@ class BERTDataset:
             None,
             add_special_tokens=True,
             truncation=True,
-            # max_len=self.max_len,
             padding='max_length',
-            # return_tensors='pt'
         )
         ids = inputs['input_ids']
         mask = inputs['attention_mask']
