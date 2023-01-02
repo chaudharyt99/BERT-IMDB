@@ -2,7 +2,7 @@
 Training a sentiment model using BERT and serving the end point using Flaskl/Django
 
 
-#This is for setting up BERT_IMDB project #
+# This is for setting up BERT_IMDB project #
 
 
 
