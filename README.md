@@ -9,7 +9,7 @@ Training a sentiment model using BERT and serving the end point using Flaskl/Dja
 # Virtual Environment Setup
 -   Create virtual environment
 
-        mkvirtualenv -p `which python3.6` mnist-using-numpy
+        mkvirtualenv -p `which python3.6` bert-imdb
  
 
 -   Install dependencies: 
