@@ -3,7 +3,8 @@ Training a sentiment model using BERT and serving the end point using Flaskl/Dja
 
 Data can be downloaded from [Kaggle IMDB Dataset](https://www.kaggle.com/datasets/lakshmi25npathi/imdb-dataset-of-50k-movie-reviews?resource=download).
 
-* Make sure to add the dataset in `BERT-IMDB/input` folder and change the data file name to imdb.csv 
+* Make sure to create a new directory `BERT-IMDB/input`.
+* Add the data file to the `/input` folder with the name `imdb.csv`
 
 #This is for setting up BERT_IMDB project to train the model#
 
